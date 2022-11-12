@@ -63,4 +63,9 @@ df
 
 // COMMAND ----------
 
-
+// df
+//   .where(col("Department_id").isNotNull)
+//   .groupBy("Department_id")
+//   .agg(countDistinct("Employee_id")).as("Count_of_emp")
+//   .orderBy(asc("Department_id"))
+//   .show()
